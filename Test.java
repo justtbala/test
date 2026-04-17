@@ -14,12 +14,7 @@ public class Test {
     System.out.println("The diff is " + result1);
   }
 
-  static void multi() {
-    int x = 5;
-    int y = 8;
-    int result2 = x * y;
-    System.out.println("The multiplication result is: " + result2);
-  }
+ 
 
   
   static void div() {
@@ -32,7 +27,7 @@ public class Test {
   public static void main(String[] args) {
     add();
     sub();
-    multi();
+  
     div(); 
   }
 }
